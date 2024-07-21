@@ -1,0 +1,34 @@
+@media print {
+  .intro, .textg {
+    display:none;
+  }
+  #output {
+    width:100%;
+  }
+
+  #output div {
+    text-justify: inter-word;
+  }
+
+  h1 {
+    text-align: center !important;
+    font-size:12pt;
+  }
+
+  .left_out_num {
+    text-align : center !important;
+  }
+  .right_out_num {
+    text-align : center !important;
+  }
+
+
+  #output div span{
+    text-align: justify;
+    width:45%;
+    margin-left:5mm;
+    margin-right:5mm;
+    padding:5px;
+  }
+
+}
