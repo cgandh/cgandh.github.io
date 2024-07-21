@@ -10,7 +10,7 @@
 #output div span{
 	text-align: justify;
 	display:inline-block;
-	width:50%;
+	width:40%;
 	padding:5px;
 }
 
@@ -20,7 +20,6 @@
 }
 
 #output{
-	width:50%;
 	border:1px;
 }
 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta charset = 'utf-8'>
+<meta http-equiv="Cache-control" content="no-cache">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<link rel="stylesheet" media="print" href="print.css"/>
+
+<!-- <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script> -->
+
+<html>
+    <head>
+        <body>
+            <div class="intro">
+                <p id="title">Parallel Texts</p>
+                <p>
+                    Printout formatted parallel texts (according to carriage returns):
+                    <input type="button" onclick="javascript:parallel_boxes()">
+                </p>
+                <p>Formatted text will go below:</p>
+            </div>
+            <div class="container">
+                <div class="textg">
+                    <textarea class="textbox" name="paragraph_text" rows="500"></textarea>
+                </div>
+                <div class="textg">
+                    <textarea class="textbox" name="paragraph_text" rows="500"></textarea>
+                </div>
+                <div id="output">
+                        Printed text will go here.
+                </div>
+            </div> 
+        </body>
+        <script src = "/scripts/parallel.js?1234"></script>
+    </head>
+</html>
